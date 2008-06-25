@@ -1,0 +1,6 @@
+ORIG_PN="adns-python"
+inherit distutils
+
+DESCRIPTION="Python adns library bindings"
+HOMEPAGE="http://code.google.com/p/adns-python/"
+SRC_URI="http://adns-python.googlecode.com/files/${ORIG_PN}-${PV}.tar.gz"

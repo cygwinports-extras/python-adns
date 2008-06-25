@@ -1,0 +1,61 @@
+python-adns
+------------------------------------------
+adns-python is a Python interface to the GNU adns asynchronous 
+DNS resolver library.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libadns1-1.4-1
+  python-2.5.2-1
+
+Build requirements:
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gcc-core-3.4.4-3
+  python-2.5.2-1
+
+Canonical website:
+  http://code.google.com/p/adns-python/
+
+Canonical download:
+  http://adns-python.googlecode.com/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-adns-1.2.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-adns-1.2.1-X.cygport all
+
+This will create:
+  /usr/src/python-adns-1.2.1-X-src.tar.bz2
+  /usr/src/python-adns-1.2.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/ADNS.py
+  /usr/lib/python2.5/site-packages/ADNS.pyc
+  /usr/lib/python2.5/site-packages/ADNS.pyo
+  /usr/lib/python2.5/site-packages/DNSBL.py
+  /usr/lib/python2.5/site-packages/DNSBL.pyc
+  /usr/lib/python2.5/site-packages/DNSBL.pyo
+  /usr/lib/python2.5/site-packages/adns.dll
+  /usr/lib/python2.5/site-packages/adns_python-1.2.1-py2.5.egg-info
+  /usr/share/doc/python-adns-1.2.1/ChangeLog
+  /usr/share/doc/python-adns-1.2.1/GPL
+  /usr/share/doc/python-adns-1.2.1/README
+
+------------------
+
+Port Notes:
+
+----- version 1.2.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
