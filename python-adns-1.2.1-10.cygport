@@ -4,3 +4,4 @@ inherit distutils
 DESCRIPTION="Python adns library bindings"
 HOMEPAGE="http://code.google.com/p/adns-python/"
 SRC_URI="http://adns-python.googlecode.com/files/${ORIG_PN}-${PV}.tar.gz"
+PATCH_URI="1.2.1-pyobject-win32.patch"

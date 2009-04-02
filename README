@@ -4,15 +4,16 @@ adns-python is a Python interface to the GNU adns asynchronous
 DNS resolver library.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libadns1-1.4-1
-  python-2.5.2-1
+  cygwin-1.7.0-44
+  libadns1-1.4-10
+  libgcc1-4.3.2-2
+  python-2.5.4-10
 
 Build requirements:
-  binutils-20080523-1
-  cygport-0.3.11-1
-  gcc-core-3.4.4-3
-  python-2.5.2-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  python-2.5.4-10
 
 Canonical website:
   http://code.google.com/p/adns-python/
@@ -45,16 +46,16 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/DNSBL.pyo
   /usr/lib/python2.5/site-packages/adns.dll
   /usr/lib/python2.5/site-packages/adns_python-1.2.1-py2.5.egg-info
-  /usr/share/doc/python-adns-1.2.1/ChangeLog
-  /usr/share/doc/python-adns-1.2.1/GPL
-  /usr/share/doc/python-adns-1.2.1/README
+  /usr/share/doc/python-adns/ChangeLog
+  /usr/share/doc/python-adns/GPL
+  /usr/share/doc/python-adns/README
 
 ------------------
 
 Port Notes:
 
------ version 1.2.1-1 -----
-Initial release for Cygwin.
+----- version 1.2.1-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

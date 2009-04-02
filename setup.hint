@@ -1,5 +1,5 @@
 category: Net Python
-requires: cygwin libadns1 python
+requires: cygwin libadns1 libgcc1 python
 sdesc: "Python adns library bindings"
 ldesc: "adns-python is a Python interface to the GNU adns asynchronous 
 DNS resolver library."
